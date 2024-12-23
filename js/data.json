@@ -1,0 +1,118 @@
+[
+    {
+      "id": 1,
+      "name": "Blazer",
+      "price": {
+        "oldPrice": 950.00,
+        "newPrice": 750.00
+      },
+      "discount": 22,
+      "img": {
+        "singleImage": "img/products/product1/44.1.jpg",
+        "thumbs": [
+          "img/products/product1/44.2.jpg",
+          "img/products/product1/44.3.jpg",
+          "img/products/product1/44.4.jpg"
+        ]
+      },
+      "category": "Formal",
+      "rating": 4.5,
+      "productId": "P001",
+      "inStockValue": 150,
+      "soldStockValue": 75,
+      "visibility": "on"
+    },
+    {
+      "id": 2,
+      "name": "High Waist",
+      "price": {
+        "oldPrice": 705.00,
+        "newPrice": 520.00
+      },
+      "discount": 26,
+      "img": {
+        "singleImage": "img/products/product2/30.1.jpg",
+        "thumbs": [
+          "img/products/product2/30.2.jpg",
+          "img/products/product2/30.3.jpg",
+          "img/products/product2/30.4.jpg"
+        ]
+      },
+      "category": "Top Wear",
+      "rating": 4.3,
+      "productId": "P002",
+      "inStockValue": 200,
+      "soldStockValue": 120,
+      "visibility": "on"
+    },
+    {
+      "id": 3,
+      "name": "Jacket",
+      "price": {
+        "oldPrice": 1765.00,
+        "newPrice": 1499.00
+      },
+      "discount": 15,
+      "img": {
+        "singleImage": "img/products/product3/45.1.jpg",
+        "thumbs": [
+          "img/products/product3/45.2.jpg",
+          "img/products/product3/45.3.jpg",
+          "img/products/product3/45.4.jpg"
+        ]
+      },
+      "category": "Jackets",
+      "rating": 4.8,
+      "productId": "P003",
+      "inStockValue": 80,
+      "soldStockValue": 50,
+      "visibility": "on"
+    },
+    {
+      "id": 4,
+      "name": "Mini Skirt",
+      "price": {
+        "oldPrice": 755.00,
+        "newPrice": 548.00
+      },
+      "discount": 39,
+      "img": {
+        "singleImage": "img/products/product4/43.1.jpg",
+        "thumbs": [
+          "img/products/product4/43.2.jpg",
+          "img/products/product4/43.3.jpg",
+          "img/products/product4/43.4.jpg"
+        ]
+      },
+      "category": "Skirts",
+      "rating": 4.2,
+      "productId": "P004",
+      "inStockValue": 60,
+      "soldStockValue": 40,
+      "visibility": "on"
+    },
+    {
+      "id": 5,
+      "name": "High Waist Top",
+      "price": {
+        "oldPrice": 1278.00,
+        "newPrice": 948.00
+      },
+      "discount": 25,
+      "img": {
+        "singleImage": "img/products/product5/32.1.jpg",
+        "thumbs": [
+          "img/products/product5/32.2.jpg",
+          "img/products/product5/32.3.jpg",
+          "img/products/product5/32.4.jpg"
+        ]
+      },
+      "category": "Top Wear",
+      "rating": 4.6,
+      "productId": "P005",
+      "inStockValue": 100,
+      "soldStockValue": 70,
+      "visibility": "on"
+    }
+  ]
+  
