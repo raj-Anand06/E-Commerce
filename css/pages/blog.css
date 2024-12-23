@@ -1,0 +1,17 @@
+.blogs.blog-page .section-title {
+    margin-top: 16px;
+    text-align: center;
+}
+.header-left .logo img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  

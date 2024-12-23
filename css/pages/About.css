@@ -1,0 +1,41 @@
+.about-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .about-image {
+    flex: 1;
+    text-align: center;
+    width: 20px;
+  }
+  
+  .about-image img {
+    max-width: 50%;
+    border-radius: 10px;
+    transform: translateY(10%);
+  }
+  
