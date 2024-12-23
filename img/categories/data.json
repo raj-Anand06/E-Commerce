@@ -1,0 +1,25 @@
+[
+  {
+    "id": 365,
+    "name": "Blue-Tshirt",
+    "price": {
+      "oldPrice": 1000,
+      "newPrice": 800
+    },
+    "discount": 20,
+    "img": {
+      "singleImage": "img/products/product/1.png",
+      "thumbs": [
+        "img/products/product/2.png",
+        "img/products/product/3.png",
+        "img/products/product/4.png"
+      ]
+    },
+    "category": "Tshirt",
+    "rating": 4,
+    "productId": "P006",
+    "inStockValue": 100,
+    "soldStockValue": 50,
+    "visibility": "on"
+  }
+]
