@@ -263,15 +263,62 @@
 }
 
 
-@media(max-width:600px) {
-    .slider .slider-item {
-        height: calc(100vh - 155px);
+@media (max-width: 768px) {
+    /* make the slider container fill the viewport width */
+    .slider {
+      width: 100vw;
+      max-width: 100%;
+      margin: 0 auto;
+      overflow: hidden;       
     }
-
-    .slider-buttons {
+  
+    /* each slide now exactly 100% of the slider */
+    .slider .slider-item {
+      width: 100%;           
+      height: calc(100vh - 550px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column; 
+    }
+  
+    /* ensure images scale down neatly */
+    .slider .slider-image img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  
+    /* tighten up the container’s padding on mobile */
+    .slider .container {
+        display: none;
+      padding: 1rem;
+    }
+  
+    /* smaller “Trendy 2024” */
+    .slider-title {
         display: none;
     }
-}
+  
+    .slider-heading {
+      display: none;
+    }
+  
+    .btn.btn-lg {
+      display: none;
+    }
+  
+    .slider-buttons {
+      display: none;
+    }
+    .slider-dots {
+        display: none;
+    }
+  }
+  
+  
+  
+  
 
 
 @media(max-width:578px) {
@@ -289,7 +336,6 @@
     }
 
 }
-
 
 @media(max-width:403px) {
 
